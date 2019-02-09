@@ -21,4 +21,3 @@ used the Homebrew to install `clojure`
 brew install clojure
 ```
 
-
