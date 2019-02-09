@@ -130,3 +130,12 @@ command.
 ```
 clj -m cljs.main --serve
 ```
+
+## Testing
+Testing is performed with the PhantomJS headless browser. To install the
+PhantomJS utility onto your macOS operating system, execute the following
+command.
+
+```
+npm install -g phantomjs-prebuilt
+```
