@@ -66,3 +66,30 @@ Elements.
 ```
 clj --main cljs.main --compile hello-human.core --repl
 ```
+
+After executing the above command I successfully received the ClojureScript
+browser page at `http://localhost:9000`
+
+## Using the REPL
+After a successful build, run, and launch in the browser. I executed the code
+the "hello world" page told me to run in the REPL (Terminal.app).
+
+```
+(js/alert "Hello CLJS!")
+```
+
+I received an alert message in the browser.
+
+I was curious if I could run other Javascript keyword commands, and it turned
+out that I could do so. First I tried executing the following code in the REPL
+and I recieved an error.
+
+```
+(js/window/confirm "Did it work?")
+```
+
+I then attempted to using dot syntax and it worked successfully.
+
+```
+(js/window.confirm "Did it work?")
+```
