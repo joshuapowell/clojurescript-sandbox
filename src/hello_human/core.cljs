@@ -22,5 +22,12 @@
 ;;
 ;; dd = d + (m/60) + (s/3600)
 ;;
+;; If heading is S(outh) or W(est) the number should be negated.
+;;
+;; Usage:
+;;
+;; (require '[hello-human.core :as human] :reload)
+;; (human/dmsToDd 30 15 50)
+;;
 (defn dmsToDd [d m s]
   (+ d (/ m 60) (/ s 3600)))

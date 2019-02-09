@@ -93,3 +93,29 @@ I then attempted to using dot syntax and it worked successfully.
 ```
 (js/window.confirm "Did it work?")
 ```
+
+## Writing and Executing Methods
+Next up, is writing methods. After completing the simple two-digit average
+method example that the ClojureScript website provided, I wanted to try with
+implementing a common coordinate conversion equation on my own.
+
+```
+(defn dmsToDd [d m s]
+  (+ d (/ m 60) (/ s 3600)))
+```
+
+I restarted my REPL and executed the following two lines of code to see if my
+new coordinate conversion method worked properly.
+
+```
+(require '[hello-human.core :as human] :reload)
+(human/dmsToDd 30 15 50)
+```
+
+Which successfully returned the following response.
+
+```
+30.26388888888889
+```
+
+
