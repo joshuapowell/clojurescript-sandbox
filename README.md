@@ -118,4 +118,15 @@ Which successfully returned the following response.
 30.26388888888889
 ```
 
+## Build for Release
+Creating a build of your ClojureScript can be completed in one line.
 
+```
+clj -m cljs.main --optimizations advanced -c hello-human.core
+```
+
+Once the build is complete, you may test the build by executing the following
+command.
+```
+clj -m cljs.main --serve
+```
