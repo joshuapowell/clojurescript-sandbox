@@ -139,3 +139,12 @@ command.
 ```
 npm install -g phantomjs-prebuilt
 ```
+
+Make sure that PhantomJS is installed in your path.
+
+```
+phantomjs --version
+```
+
+### Running Tests
+
