@@ -145,6 +145,3 @@ Make sure that PhantomJS is installed in your path.
 ```
 phantomjs --version
 ```
-
-### Running Tests
-
