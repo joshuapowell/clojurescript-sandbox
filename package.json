@@ -1,0 +1,9 @@
+{
+  "name": "clojurescript-sandbox",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.8.8"
+  },
+  "dependencies": {}
+}
